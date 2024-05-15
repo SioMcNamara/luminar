@@ -1,0 +1,37 @@
+# Site settings
+title: Luminar 
+description: 'Private Tutoring with Elite Ivy leage Educated Experienced Teachers'
+url: 'https://www.luminar-labs.com'
+baseurl: ''
+profilepic: '/images/colorful_book.jpg'
+bkimage: '/images/black_math.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'XXXXXXXXXX.js'
+
+author:
+  name: 'Luminar Labs'
+  email: admin@luminar-labs.com
+#  mastodon: 
+#  twitter_username: thomzuehlke
+#  facebook_username: joshgerdes
+#  github_username:  tzuehlke
+#  linkedin_username:  thomas-zühlke-889182165
+#  meetup_name: Azure-Meetup-Rostock-MV
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
