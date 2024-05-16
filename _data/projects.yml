@@ -1,5 +1,5 @@
 # projects section data
-- name: A repo with workflow, that downloads the current Pay-As-You-Go prices from Azure once a month and saves them in ~40MB files
+- name: High school math up to AP Calculus
   gh_user: tzuehlke
   repo: AzurePAYGPrices
   img: https://blog.zuehlke.cloud/wp-content/uploads/2024/04/AzureCostExportPAYG-Overview-945x293.png
