@@ -244,6 +244,13 @@ pre {
 	font-size: .7em;
 	color: #b3b3b3; }
 
+.footer_sidebar {
+	display: block;
+	padding: 2em 0 0 0;
+	border-top: 2px solid #dddddd;
+	font-size: .7em;
+	color: #b3b3b3; }
+
 .footer__copyright {
 	display: block;
 	margin-bottom: .7em; }
@@ -515,8 +522,8 @@ nav {
 		color: #FFF;
 		opacity: .8; }
 		.navigation__item a:hover {
-			color: blue;
-			border-color: blue;
+			color: #304D98;
+			border-color: #304D98;
 			opacity: 1; }
 
 .navigation--social {
