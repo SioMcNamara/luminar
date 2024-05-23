@@ -1,10 +1,10 @@
 # Site settings
 title: Luminar 
-description: 'Private Tutoring with Elite Ivy leage Educated Experienced Teachers'
+description: 'Private Tutoring with an Elite Ivy Leage Educated Experienced Teachers'
 url: 'https://www.luminar-labs.com'
 baseurl: ''
 profilepic: '/images/colorful_book.jpg'
-bkimage: '/images/black_math.jpg'
+bkimage: '/images/grey_fade.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
 
