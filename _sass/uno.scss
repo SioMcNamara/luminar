@@ -228,7 +228,7 @@ pre {
 .content-wrapper {
 	z-index: 800;
 	width: 60%;
-	max-width: 800px;
+	max-width: 900px;
 	margin-left: 40%; }
 
 .content-wrapper__inner {
@@ -259,6 +259,22 @@ pre {
 		text-decoration: underline; }
 		.footer__copyright a:hover {
 			color: #1d1818; }
+
+.reviews {
+	display: block;
+	position:absolute;
+    top:0;
+    right:0;
+	padding: 3em 5em 500em 3em;
+	font-size: .7em;
+	color: #999999; }
+
+.reviews_inner {
+	display: block;
+	margin-bottom: 4em; }
+	.reviews_inner a {
+		color: #999999;;
+		}
 
 .avatar,
 .logo {
@@ -446,7 +462,7 @@ hr {
 
 .btn, .navigation__item a {
 	padding: 10px 20px;
-	border: 1px solid #1d1818;
+	border: 0.5px solid #1d1818;
 	border-radius: 20px;
 	font-size: .9em;
 	font-weight: bold;
