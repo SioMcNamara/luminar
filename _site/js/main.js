@@ -12,6 +12,8 @@ $(document).ready(function () {
       $('.panel-cover').css('max-width', '100%')
       $('.panel-cover').animate({'width': '100%'}, 400, swing = 'swing', function () {})
       $('.content-wrapper').removeClass('showing')
+      $('.reviews').removeClass('reviews_hidden')
+      $('.reviews').addClass('reviews_inner')
       history.pushState("", document.title, window.location.pathname + window.location.search);
       //window.location.hash = '' // leaves #
       e.preventDefault();
@@ -22,9 +24,13 @@ $(document).ready(function () {
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed')
       $('.content-wrapper').addClass('animated slideInRight')
+      $('.reviews').addClass('reviews_hidden')
+      $('.reviews').removeClass('reviews_inner')
     } else {
       $('.panel-cover').css('max-width', currentWidth)
       $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
+      $('.reviews').addClass('reviews_hidden')
+      $('.reviews').removeClass('reviews_inner')
     }
     $('.content-wrapper').addClass('showing');
   })

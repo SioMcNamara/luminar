@@ -260,22 +260,6 @@ pre {
 		.footer__copyright a:hover {
 			color: #1d1818; }
 
-.reviews {
-	display: block;
-	position:absolute;
-    top:0;
-    right:0;
-	padding: 3em 5em 500em 3em;
-	font-size: .7em;
-	color: #999999; }
-
-.reviews_inner {
-	display: block;
-	margin-bottom: 4em; }
-	.reviews_inner a {
-		color: #999999;;
-		}
-
 .avatar,
 .logo {
 	border-radius: 50%;
@@ -367,9 +351,27 @@ hr {
 	background: url(../images/background-cover.jpg) top left no-repeat #666666;
 	background-size: cover; }
 
+.reviews {
+	display: block;
+	max-width:300px;
+    word-wrap:break-word;
+	position:absolute;
+	top:0;
+	right:0;
+	padding: 1em 2em 500em 3em;
+	font-size: .7em;
+	color: #999999; }
+
+.reviews_inner {
+	display: block;
+	margin-bottom: 4em;
+	color: #999999; }
+
 .panel-cover--collapsed {
 	width: 40%;
 	max-width: 530px; }
+	.reviews_hidden {
+		display: none; }
 
 .panel-cover--overlay {
 	display: block;
@@ -776,6 +778,8 @@ input[type="tel"] {
 			.panel-cover.panel-cover--collapsed .panel-cover__divider {
 				display: none;
 				margin: 1em auto; }
+			.panel-cover.panel-cover--collapsed.reviews {
+				display: none;}
 
 	.navigation-wrapper {
 		display: none;

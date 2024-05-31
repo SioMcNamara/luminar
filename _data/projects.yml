@@ -1,4 +1,8 @@
 # projects section data
+- name: On Demand Support During Office Hours
+  subtitle: Drop in if you're stuck on a problem, get hands on support to step through it and learn the fundamenatals
+  img: /images/ondemand.jpeg
+
 - name: ACT Preparation
   subtitle: Private classes to achieve a 3-4 point increase in composite ACT scores
   img: /images/act.png
@@ -40,8 +44,3 @@
   subtitle: Private lessons to review curriculum and get a jump on new content
   img: /images/summer.png
   #desc: Some scripts that I used with Azure Automation. For example a VM Start/Stop script or a script for resetting a VPN tunnel.
-
-#- name: Face API
-  #subtitle: ArvatoSystems
-  #repo: FaceApiWPF
-  #img: https://raw.githubusercontent.com/ArvatoSystems/FaceApiWPF/master/FaceApiWPFScreenshot.png
