@@ -2,6 +2,7 @@
 - name: On Demand Support During Office Hours
   subtitle: Drop in if you're stuck on a problem, get hands on support to step through it and learn the fundamenatals
   img: /images/ondemand.jpeg
+  ondemand: True
 
 - name: ACT Preparation
   subtitle: Private classes to achieve a 3-4 point increase in composite ACT scores
