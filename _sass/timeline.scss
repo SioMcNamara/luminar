@@ -8,7 +8,7 @@
 .timeline:before {
     content: "";
     position: absolute;
-    top: 0;
+    top: 10;
     bottom: 0;
     left: 40px;
     width: 0px; // draw vertical timeline line (2px)
